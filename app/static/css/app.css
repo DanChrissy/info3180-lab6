@@ -5,3 +5,27 @@ body {
 footer  {
     padding-top: 20px;
 }
+
+img{
+    height: 10em;
+    width: 10em;
+}
+
+.news__item{
+    height:380px;
+    width:300px;
+    border-top: 3px green solid;
+    border-left: 1px #cccccc solid;
+    margin-bottom: 15px;
+    margin-right: 25px;
+    display:inline-block;
+    overflow:auto;
+    padding: 1px;
+    box-shadow: 3px 5px #cccccc;
+    border-radius:5%;
+}
+
+.news__list{
+    margin: auto;
+    position: relative;
+}
